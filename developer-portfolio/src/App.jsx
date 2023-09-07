@@ -1,8 +1,16 @@
 import "./App.scss";
-import HomePage from "./components/HomePage";
+import Layout from "./components/Layout/index";
+// import HomePage from "./components/HomePage";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  return <div className="App">{/* <HomePage /> */}</div>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
