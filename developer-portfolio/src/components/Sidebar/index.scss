@@ -96,3 +96,28 @@ nav {
     }
   }
 }
+ul {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding-right: 2rem; // adding this in to override the reboot.scss file which includes "padding-left: 2rem"... this offset centers the icons
+
+  li {
+    a {
+      padding: 7px 0;
+      display: block;
+      font-size: 15px;
+      line-height: 16px;
+
+      &:hover svg {
+        // color: lightblue;
+        color: #ffd700;
+      }
+    }
+  }
+}
