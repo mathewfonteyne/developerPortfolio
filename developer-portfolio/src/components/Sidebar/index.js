@@ -1,7 +1,8 @@
 import "./index.scss";
 import { Link, NavLink } from "react-router-dom";
 // Design an image to be used as my logo for both my home button/name and subtitle/name
-import LogoS from "../../assets/images/logo-s.png";
+// import LogoS from "../../assets/images/letter_m.png";
+import LogoS from "../../assets/images/purple_m.png";
 // import LogoSubtitle from "../../assets/images/logos/logo-sub.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faEnvelope, faUser } from "@fortawesome/free-solid-svg-icons";

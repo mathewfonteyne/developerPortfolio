@@ -47,7 +47,7 @@ nav {
     }
 
     &:hover {
-      color: #ffd700;
+      color: #dda0dd;
 
       svg {
         opacity: 0;
@@ -92,7 +92,7 @@ nav {
 
   a.active {
     svg {
-      color: #ffd700;
+      color: #dda0dd;
     }
   }
 }
@@ -116,7 +116,7 @@ ul {
 
       &:hover svg {
         // color: lightblue;
-        color: #ffd700;
+        color: #dda0dd;
       }
     }
   }

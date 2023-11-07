@@ -1,4 +1,5 @@
-import LogoS from "../../assets/images/logo-s.png";
+// import LogoS from "../../assets/images/letter_m.png";
+import LogoS from "../../assets/images/purple_m.png";
 // this logo is placeholder for what my actual logo will be.
 import "./index.scss";
 
