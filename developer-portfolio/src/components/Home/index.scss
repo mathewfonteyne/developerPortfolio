@@ -9,7 +9,7 @@
   }
 
   h1 {
-    color: #fff;
+    color: #f9f9f9;
     font-size: 53px; // 4rem;
     margin: 0;
     font-family: "Coolvetica";
@@ -70,5 +70,10 @@
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
+
+    &:hover {
+      background: #dda0dd;
+      color: #191970;
+    }
   }
 }

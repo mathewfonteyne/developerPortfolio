@@ -1,5 +1,6 @@
 // import LogoS from "../../assets/images/letter_m.png";
 import LogoS from "../../assets/images/purple_m.png";
+import { Link } from "react-router-dom";
 // this logo is placeholder for what my actual logo will be.
 import "./index.scss";
 
@@ -16,9 +17,9 @@ const Home = () => {
           Software Developer
         </h1>
         <h2>Full-Stack Developer / Game Developer</h2>
-        {/* <Link to="/contact" className="flat-button">
+        <Link to="/contact" className="flat-button">
           CONTACT ME
-        </Link> */}
+        </Link>
       </div>
     </div>
   );
