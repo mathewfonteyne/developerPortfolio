@@ -1,10 +1,12 @@
 // import LogoS from "../../assets/images/letter_m.png";
+import { useState } from "react";
 import LogoS from "../../assets/images/purple_m.png";
 import { Link } from "react-router-dom";
 // this logo is placeholder for what my actual logo will be.
 import "./index.scss";
 
 const Home = () => {
+  const [letterClass, setLetterClass] = useState("text-animate");
   return (
     <div className="container home-page">
       <div className="text-zone">
