@@ -1,5 +1,5 @@
 // import LogoS from "../../assets/images/letter_m.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import LogoS from "../../assets/images/purple_m.png";
 import { Link } from "react-router-dom";
 // this logo is placeholder for what my actual logo will be.
@@ -30,6 +30,13 @@ const Home = () => {
     "r",
     ".",
   ];
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setLetterClass("text-animate-hover");
+    }, 4000);
+    return () => clearTimeout(timerId);
+  }, []);
   return (
     <div className="container home-page">
       <div className="text-zone">
